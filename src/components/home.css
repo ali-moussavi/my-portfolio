@@ -1,5 +1,5 @@
 .home {
-	background-color: blueviolet;
+	background-color: #343a40;
 	height: 80vh;
 }
 
@@ -15,7 +15,11 @@
 }
 
 .height30 {
-	height: 30vh;
+	height: 25vh;
+}
+
+.height5 {
+	height: 15vh;
 }
 
 .text-align-center {
@@ -50,10 +54,27 @@
 	}
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
 	.myname {
 		font-family: 'Drummon Regular';
 		font-size: 200%;
 	}
+}
+
+.coloring {
+	color: #48e0e8;
+}
+
+.letters {
+	display: inline-block;
+	padding: 0px 1px 0px 1px;
+	margin: 0px;
+}
+
+.padding-right {
+	padding: 0px 15px 0px 0px;
+}
+
+.inline {
+	display: inline-block;
 }

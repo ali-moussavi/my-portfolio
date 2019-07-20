@@ -19,16 +19,23 @@ const NavBar1 = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse className="justify-content-end">
-				<Nav>
-					<Nav.Link>
-						<Link to="/skills">My Skills</Link>
-					</Nav.Link>
-					<Nav.Link>
-						<Link to="/projects">Projects</Link>
-					</Nav.Link>
-					<Nav.Link>
-						<Link to="/contact">Contact Me</Link>
-					</Nav.Link>
+				<Nav className="justify-content-end">
+					<Nav.Item className="pr-3 pl-3 py-3 px-3">
+						<Link to="/skills" style={{ color: '#48e0e8' }}>
+							My Skills
+						</Link>
+					</Nav.Item>
+
+					<Nav.Item className="pr-3 pl-3 py-3 px-3">
+						<Link to="/projects" style={{ color: '#48e0e8' }}>
+							Projects
+						</Link>
+					</Nav.Item>
+					<Nav.Item className="pr-3 pl-3 py-3 px-3">
+						<Link to="/contact" style={{ color: '#48e0e8' }}>
+							Contact Me
+						</Link>
+					</Nav.Item>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

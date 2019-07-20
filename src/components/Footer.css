@@ -1,0 +1,49 @@
+.footer {
+	background-color: #343a40;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.myiconholder {
+	height: 70%;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+.myiconholder1 {
+	height: 100%;
+}
+
+.myicon {
+	height: 80%;
+	transition: transform .2s;
+}
+.myicon:hover {
+	transform: scale(1.25);
+}
+
+.instagram {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.telegram {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.linkedin {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.github {
+	height: 80%;
+	margin-top: 5px;
+	transition: transform .2s;
+}
+
+.github:hover {
+	transform: scale(1.25);
+}
