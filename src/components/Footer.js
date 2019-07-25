@@ -22,8 +22,8 @@ class Footer extends Component {
 								<a href="https://www.linkedin.com/in/ali-moussavi-1368b1172/">
 									<img
 										alt="linkedin"
-										src="/linkedin.PNG"
-										className="myicon linkedin"
+										src="/linkedin.png"
+										className="myicon"
 									/>
 								</a>
 							</div>
@@ -37,12 +37,12 @@ class Footer extends Component {
 				>
 					{(props) => (
 						<div style={props} className="myiconholder1">
-							<div className="myiconholder1">
+							<div className="myiconholder">
 								<a href="https://github.com/ali-moussavi">
 									<img
 										alt="github"
-										src="/github.PNG"
-										className="github"
+										src="/github.svg"
+										className="myicon"
 									/>
 								</a>
 							</div>
@@ -60,8 +60,8 @@ class Footer extends Component {
 								<a href="https://t.me/MohammadAli_73">
 									<img
 										alt="telegram"
-										src="/telegram.PNG"
-										className="myicon telegram"
+										src="/telegram1.png"
+										className="myicon"
 									/>
 								</a>
 							</div>
@@ -79,8 +79,8 @@ class Footer extends Component {
 								<a href="https://www.instagram.com/mohammadali73/">
 									<img
 										alt="instagram"
-										src="/instagram.PNG"
-										className="myicon instagram"
+										src="/instagram.png"
+										className="myicon"
 									/>
 								</a>
 							</div>

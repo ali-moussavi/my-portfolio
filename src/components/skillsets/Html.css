@@ -1,0 +1,24 @@
+.ctr {
+	background-color: #224761;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 204px;
+	flex-wrap: wrap;
+	margin: 10px 10px;
+	transition: 0.5s;
+}
+.ctr:hover {
+	transform: scale(1.15);
+}
+
+.icon {
+	width: 80%;
+	margin: 10px 10px;
+}
+
+.iconname {
+	font-size: 30px;
+}

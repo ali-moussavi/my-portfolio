@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './home.css';
 import { AwesomeButton } from 'react-awesome-button';
 import { Link } from 'react-router-dom';
-import 'react-awesome-button/dist/themes/theme-rickiest.css';
+import 'react-awesome-button/dist/themes/theme-c137.css';
 import { Spring, Transition, Trail, config } from 'react-spring/renderprops';
 
 const myname = [ 'A', 'l', 'i' ];
@@ -133,7 +133,7 @@ class home extends Component {
 								>
 									{(props) => (
 										<div style={props}>
-											<AwesomeButton type="primary">
+											<AwesomeButton type="link">
 												My Skills >
 											</AwesomeButton>
 										</div>

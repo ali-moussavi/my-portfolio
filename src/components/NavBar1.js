@@ -5,13 +5,13 @@ import './NavBar1.css';
 
 const NavBar1 = () => {
 	return (
-		<Navbar sticky="top" expand="lg" bg="dark" variant="dark">
+		<Navbar sticky="top" expand="lg" className="bgcolor" variant="dark">
 			<Navbar.Brand className="nopadding">
 				<Link to="/">
 					<img
 						alt=""
 						src="/Capture.PNG"
-						width="180"
+						width="200"
 						height="50"
 						className="d-inline-block align-top"
 					/>
@@ -21,18 +21,18 @@ const NavBar1 = () => {
 			<Navbar.Collapse className="justify-content-end">
 				<Nav className="justify-content-end">
 					<Nav.Item className="pr-3 pl-3 py-3 px-3">
-						<Link to="/skills" style={{ color: '#48e0e8' }}>
+						<Link to="/skills" style={{ color: '#4fa3e0' }}>
 							My Skills
 						</Link>
 					</Nav.Item>
 
 					<Nav.Item className="pr-3 pl-3 py-3 px-3">
-						<Link to="/projects" style={{ color: '#48e0e8' }}>
+						<Link to="/projects" style={{ color: '#4fa3e0' }}>
 							Projects
 						</Link>
 					</Nav.Item>
 					<Nav.Item className="pr-3 pl-3 py-3 px-3">
-						<Link to="/contact" style={{ color: '#48e0e8' }}>
+						<Link to="/contact" style={{ color: '#4fa3e0' }}>
 							Contact Me
 						</Link>
 					</Nav.Item>
