@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './skills.css';
 import Html from './skillsets/Html';
+import { Link } from 'react-router-dom';
+import { AwesomeButton } from 'react-awesome-button';
+import 'react-awesome-button/dist/themes/theme-c137.css';
 
 class skills extends Component {
 	render() {
@@ -22,6 +25,11 @@ class skills extends Component {
 				/>
 				<Html src="/nodejs.png" color={{ color: '#6da75d' }} text="Node.js" />
 				<Html src="/github1.png" color={{ color: '#ffffff' }} text="GitHub" />
+				<div className="projectsbtn">
+					<Link to="/projects">
+						<AwesomeButton type="link">My Projects ></AwesomeButton>
+					</Link>
+				</div>
 			</div>
 		);
 	}

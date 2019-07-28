@@ -24,23 +24,31 @@ class App extends Component {
 							<div className="specialfont">
 								<NavBar1 />
 								<PoseGroup>
-									<RouteContainer key={location.key}>
+									<RouteContainer key={location.pathname}>
 										<Switch location={location}>
-											<Route path="/" exact component={home} />
+											<Route
+												path="/"
+												exact
+												component={home}
+												key="home"
+											/>
 											<Route
 												path="/projects"
 												exact
 												component={projects}
+												key="projects"
 											/>
 											<Route
 												path="/skills"
 												exact
 												component={skills}
+												key="skills"
 											/>
 											<Route
 												path="/contact"
 												exact
 												component={contactMe}
+												key="contact"
 											/>
 										</Switch>
 									</RouteContainer>

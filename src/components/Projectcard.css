@@ -1,0 +1,39 @@
+.contain {
+	background-color: #224761;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: auto;
+	padding: 1rem 2rem 2rem 2rem;
+	flex-wrap: wrap;
+	margin: 10px 10px;
+	transition: 0.5s;
+}
+
+.title {
+	padding-bottom: 0.5rem;
+	color: #95c4e6;
+	font-size: 1.5rem;
+}
+
+.picture {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.projectbtns {
+	margin: 25px 5px 0px 5px;
+	width: 25%;
+}
+
+.btncontain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a:hover {
+	text-decoration: none;
+}

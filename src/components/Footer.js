@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import './Footer.css';
 import { Spring, config } from 'react-spring/renderprops';
 

@@ -73,8 +73,8 @@ class home extends Component {
 					<Row className>
 						<Col className=" text-align-center ">
 							<Spring
-								from={{ marginLeft: 2000 }}
-								to={{ marginLeft: 0 }}
+								from={{ opacity: 0 }}
+								to={{ opacity: 1 }}
 								config={config.gentle}
 								delay={3000}
 							>
